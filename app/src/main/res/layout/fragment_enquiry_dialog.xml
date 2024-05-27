@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".customer.EnquiryDialogFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtEnquiryMsgLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtEnquiryMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enquiryMsg_hint"
+            android:inputType="textMultiLine"
+            android:fontFamily="@font/poppins_regular"
+            android:minLines="5"
+            android:maxLines="10"
+            android:gravity="top|start" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGoBack"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="@string/goBackBtn_text"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:strokeColor="@color/md_theme_primary"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginBottom="6dp"
+        app:cornerRadius="6dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSendEnquiry"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="@string/sendEnquiryBtn_text"
+        style="@style/Widget.MaterialComponents.Button"
+        android:backgroundTint="@color/md_theme_primary"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="6dp" />
+
+</LinearLayout>

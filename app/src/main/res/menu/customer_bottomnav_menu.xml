@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_bottomNav"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        app:cnb_iconColor="@color/md_theme_primary"
+        android:title="@string/admin_bottomNav_homeLbl" />
+    <item
+        android:id="@+id/enquiries_bottomNav"
+        android:enabled="true"
+        android:icon="@drawable/ic_enquiries"
+        app:cnb_iconColor="@color/md_theme_primary"
+
+        android:title="@string/admin_bottomNav_enquiriesLbl"/>
+    <item
+        android:id="@+id/profile_bottomNav"
+        android:enabled="true"
+        android:icon="@drawable/ic_person"
+        app:cnb_iconColor="@color/md_theme_primary"
+        android:title="@string/bottomNav_profileLbl"/>
+</menu>

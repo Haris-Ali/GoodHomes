@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">گڈ ہومز</string>
+    <string name="login_title">لاگ ان کریں</string>
+    <string name="signup_title">اکاؤنٹ بنائیں</string>
+    <string name="email_label">ای میل</string>
+    <string name="password_label">پاس ورڈ</string>
+    <string name="userType_label">صارف کی قسم</string>
+    <string name="forgot_password_label">پاسورڈ بھول گے؟</string>
+    <string name="email_hint">اپنا ای میل ایڈریس یہاں درج کریں۔</string>
+    <string name="password_hint">یہاں اپنا پاس ورڈ درج کریں۔</string>
+    <string name="loginBtn_text">لاگ ان کریں</string>
+    <string name="signupBtn_text">اکاؤنٹ بنائیں</string>
+    <string name="username_label">نام</string>
+    <string name="username_hint">اپنا نام یہاں درج کریں۔</string>
+    <string name="or">یا</string>
+    <string name="userType_admin_label">ایڈمن</string>
+    <string name="userType_landlord_label">مالک مکان</string>
+    <string name="userType_customer_label">گاہک</string>
+    <string name="createAccount_label">"یہاں نئے ہیں؟ "</string>
+    <string name="login_label">"پہلے سے ہی صارف ہے؟ "</string>
+    <string name="createAccount_link">" اکاؤنٹ بنائیں"</string>
+    <string name="login_link">" یہاں لاگ ان کریں۔"</string>
+    <string name="admin_bottomNav_homeLbl">گھر</string>
+    <string name="admin_bottomNav_createLbl">تخلیق کریں۔</string>
+    <string name="bottomNav_profileLbl">پروفائل</string>
+    <string name="number_properties_label">پراپرٹیز کی تعداد</string>
+    <string name="viewLandlord_card_title">مالک مکان کو دیکھیں</string>
+    <string name="editLandlord_card_title">مالک مکان میں ترمیم کریں۔</string>
+    <string name="deleteLandlord_card_title">مالک مکان کو حذف کریں۔</string>
+    <string name="ok">ٹھیک ہے</string>
+    <string name="top_landlords_label">اعلیٰ مکان مالک</string>
+    <string name="all_landlords_label">تمام مالک مکان</string>
+    <string name="updateBtn_text">اپڈیٹ کریں۔</string>
+    <string name="deleteBtn_text">حذف کریں۔</string>
+    <string name="propertiesWithLandlordName_lbl">پراپرٹیز</string>
+</resources>

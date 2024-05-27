@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".admin.AdminHomeFragment"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.SearchView
+        android:background="@drawable/searchbar"
+        android:id="@+id/search_landlord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:queryHint="@string/landlordSearchbar_queryHint"
+        app:iconifiedByDefault="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/top_landlords_label"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/poppins_bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcViewTopLandlords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        android:scrollbars="none"
+        tools:listitem="@layout/landlord_item_layout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/all_landlords_label"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcViewAllLandlords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:scrollbars="none"
+        tools:listitem="@layout/landlord_item_layout" />
+</LinearLayout>
